@@ -1,0 +1,53 @@
+*{
+    background-color: rgb(199, 102, 102);
+    color: rgb(244, 244, 255);
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+        "item1 item2"
+        "item1 item3"
+    ;
+}
+
+.item1{
+    grid-area: item1;
+    align-self: center;
+}
+
+.item2{
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: item3;
+}
+
+img{
+    width: 400px;
+}
+
+.fotos{
+    display: grid;
+    grid-template-areas:
+    "Titulo Titulo"
+    "img1 img2"
+    ;
+}
+
+.Titulo{
+    grid-area: Titulo;
+    text-align: center;
+}
+
+.img1{
+    grid-area: img1;
+    justify-self: center;
+}
+
+.img2{
+    grid-area: img2;
+    justify-self: center;
+}
+
